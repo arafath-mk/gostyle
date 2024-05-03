@@ -1,6 +1,6 @@
 # GOStyle
 
-**GOStyle** Go package supports you to do styled or colorized output to the console.
+The GOStyle Go package enables styled or colorized output to the console.
 
 ## Supported Styles
 
