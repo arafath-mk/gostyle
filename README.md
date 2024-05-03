@@ -1,6 +1,6 @@
 # GOStyle
 
-The GOStyle Go package enables styled or colorized output to the console.
+Instantly enhance the readability and visual clarity of your Go console applications. GOStyle offers a simple, intuitive API for adding rich styling, including colors, backgrounds, and text effects.
 
 ## Supported Styles
 
