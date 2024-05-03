@@ -1,6 +1,6 @@
 # GOStyle
 
-Instantly enhance the readability and visual clarity of your Go console applications. GOStyle offers a simple, intuitive API for adding rich styling, including colors, backgrounds, and text effects.
+Add Rich, Flexible Styling to Your Go Console Apps with GOStyle.
 
 ## Supported Styles
 
@@ -13,17 +13,20 @@ Instantly enhance the readability and visual clarity of your Go console applicat
 1. Darken (Darker than normal)
 1. Lighten (Lighter than normal)
 
-## Why?
+## Why GOStyle?
 
-1. Easy to use. Easy to integrate with existing code.
-2. GOStyle uses 24-bit True color.
-3. Supports CSS3 web colors.
-4. Several styles of APIs are available to achieve the same output. You are free to choose any.
-5. APIs have flag parameters to 'turn on' or 'turn off' styling. This provides you the opportunity to use the same code for 'console output' and 'file log'.
-6. You can detect whether styling is supported by the terminal.
-7. If you are developing a high-performance and low-allocation logger, GOStyle provides zero allocation `Append*` functions.
+- **Effortless Integration:** Upgrade your console output in minutes, without major refactoring.
+- **True Color Support:** Leverage the full range of 24-bit color for awesome styling.
+- **Flexible Control:** Turn styling on or off. APIs have flag parameters to 'turn on' or 'turn off' styling. This provides flexibility to use the same code for both console output and logging.
+- **User-Friendly API:** Choose your preferred syntax for a seamless coding experience.
 
-### Colors
+```go
+    // Enhanced console output:
+    // Apply Blue color to "Hello World".
+    fmt.Println(gostyle.ApplyTo("Hello World", true).Color(wcolor.Blue).String())
+```
+
+## Colors
 
 GOStyle provides the following three methods to create colors.
 
